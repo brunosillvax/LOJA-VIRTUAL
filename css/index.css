@@ -1257,17 +1257,7 @@ form button:hover {
   right: 0px;
   transition: all 0.4s ease;
 }
-.color-panel {
-  height: 45px;
-  cursor: pointer;
-  width: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
-  background: whitesmoke;
-}
+
 .color-panel img {
   height: 40px;
   width: 40px;
@@ -1331,22 +1321,6 @@ form button:hover {
   100% {
     transform: rotate(360deg);
   }
-}
-.color-selector {
-  height: auto;
-  width: 150px;
-  padding: 10px;
-  background: whitesmoke;
-  font-family: poppins;
-  font-size: 16px;
-  display: flex;
-  color: black;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.color-selector li {
-  list-style: none;
 }
 
 /*
